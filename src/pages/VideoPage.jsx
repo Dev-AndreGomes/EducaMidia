@@ -2,7 +2,7 @@
 import React from 'react';
 import { Video, Layers, Aperture, HardDrive } from 'lucide-react';
 import ContentPage from './ContentPage';
-import localVideo from '../assets/edit.mp4'; 
+import localVideo from '../assets/Vitrola.mp4'; 
 
 const VideoPage = () => ( 
     <ContentPage title="Vídeo Digital: Conceitos e Compressão">
@@ -13,7 +13,7 @@ const VideoPage = () => (
                 <div className="rounded-xl overflow-hidden shadow-2xl bg-black border-4 border-red-500">
 
                     <h3 className="font-bold text-lg text-white p-3 bg-red-800 flex items-center gap-2">
-                        <Video className="text-white" /> Player de Demonstração (Material Original: edit.mp4)
+                        <Video className="text-white" /> Player de Demonstração (Material Original: Vitrola.mp4) Equipamento de Alexandre
                     </h3>
 
                     {/* PLAYER FIXO USANDO localVideo */}

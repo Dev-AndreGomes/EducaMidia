@@ -2,7 +2,7 @@
 import React from 'react';
 import { Grid, Droplet, Maximize, FileText } from 'lucide-react';
 import ContentPage from './ContentPage';
-import localImage from '../assets/ceu.png'; 
+import localImage from '../assets/vitrolaimage.jpeg'; 
 
 const RasterPage = () => ( 
      <ContentPage title="Imagens Matriciais (Raster)">
@@ -21,12 +21,12 @@ const RasterPage = () => (
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                          {/* Demonstração de Imagem FIXA */}
                          <div className="bg-blue-50 border-2 border-blue-300 p-6 rounded-xl flex flex-col items-center">
-                              <h3 className="font-bold text-lg text-blue-900 mb-4">📷 Imagem de Referência (ceu.png)</h3>
+                              <h3 className="font-bold text-lg text-blue-900 mb-4">📷 Imagem de Referência (vitrolaimage.jpeg)</h3>
                               <div className="space-y-4 w-full">
                                    {/* Imagem fixa com src hardcoded para localImage */}
                                    <img src={localImage} alt="Ceu" className="w-full max-h-96 object-contain rounded-lg shadow-lg border border-gray-300" />
                                    <p className="text-sm text-slate-500 italic text-center">
-                                        Arquivo fixo: `ceu.png` (usado para demonstrar os conceitos de pixelização).
+                                        Arquivo fixo: `vitrolaimage.jpeg` (usado para demonstrar os conceitos de pixelização).
                                    </p>
                               </div>
                          </div>

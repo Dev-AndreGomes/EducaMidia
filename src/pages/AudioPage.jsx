@@ -3,6 +3,7 @@ import React from 'react';
 import { Volume2, Cpu, SlidersHorizontal, HardDrive, Waves, Speaker } from 'lucide-react';
 import ContentPage from './ContentPage';
 import localAudio from '../assets/aula.mp3'; 
+import sinewaveImage from '../assets/sinewave.jpg'; 
 
 // Componente auxiliar para caixas de conceito
 const ConceptBox = ({ title, text, color }) => (
@@ -64,9 +65,11 @@ const AudioPage = () => (
                 
                 <div className="my-4 text-center p-4 bg-gray-50 rounded-lg shadow-inner">
                     {/* Diagrama de Onda Sonora */}
-                    
-
-[Image of sine wave sampling]
+                    <img 
+                        src={sinewaveImage} 
+                        alt="Diagrama de Amostragem de Onda Sonora" 
+                        className="mx-auto w-full md:w-3/4 max-w-lg" 
+                    />
 
                     <p className="text-sm italic text-gray-600 mt-2">
                         O eixo horizontal (Tempo) se relaciona com a Frequência. O eixo vertical (Amplitude) se relaciona com o Volume.
